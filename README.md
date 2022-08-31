@@ -1,2 +1,3 @@
-# 301_Ops_Challenge
-A collection of my 301 Cyber Ops challenges in Code Fellows
+# Table of Contents
+
+- [Challenge02-Append,Date_and_Time](class-02.sh)
