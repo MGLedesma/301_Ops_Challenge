@@ -7,14 +7,15 @@
 
 # main
 
-# value is assigned a date format
-now="$(date +%D)"
+# variable is assigned a date 
+now=$(date +%D)
 
-# copy syslog file to a file
-cp -i /var/log/syslog AppendTimeDate
+# copy syslog file to a new file
+# -i option prompts the user for confirmation before overwriting files
+cp -i /var/log/syslog Append_TD
 
-# append timestamp to a file name
-mv -u AppendTimeDate AppendTimeDate.$now
+# append the date to a file name
+mv -i Append_TD Append_TD.$now
 
 #End
 
