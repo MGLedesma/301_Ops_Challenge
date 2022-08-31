@@ -6674,3 +6674,47 @@ Aug 31 08:41:20 labpc gnome-shell[1097]: Window manager warning: Overwriting exi
 Aug 31 08:41:20 labpc dbus-daemon[962]: [session uid=1000 pid=962] Successfully activated service 'org.gnome.ArchiveManager1'
 Aug 31 08:41:20 labpc gnome-shell[1097]: DING: Detected async api for thumbnails
 Aug 31 08:41:20 labpc gnome-shell[1097]: DING: GNOME nautilus 42.2
+Aug 31 08:51:26 labpc google-chrome.desktop[119547]: [119541:119541:0831/085126.563182:ERROR:interface_endpoint_client.cc(665)] Message 0 rejected by interface blink.mojom.WidgetHost
+Aug 31 08:55:45 labpc systemd[929]: app-gnome-google\x2dchrome-119541.scope: Consumed 11min 16.459s CPU time.
+Aug 31 08:55:54 labpc code.desktop[121880]: #033[90m[main 2022-08-31T15:55:54.304Z]#033[0m Waiting for extension host with pid 121994 to exit.
+Aug 31 08:55:54 labpc code.desktop[121880]: #033[90m[main 2022-08-31T15:55:54.327Z]#033[0m Extension host with pid 121994 exited with code: 0, signal: null.
+Aug 31 08:55:54 labpc systemd[929]: app-gnome-code-121880.scope: Consumed 8min 12.784s CPU time.
+Aug 31 08:55:57 labpc systemd[929]: Started Application launched by gnome-shell.
+Aug 31 08:55:57 labpc dbus-daemon[685]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.375' (uid=1000 pid=125504 comm="/opt/google/chrome/chrome --incognito --enable-cra" label="unconfined")
+Aug 31 08:55:57 labpc systemd[1]: Condition check resulted in Bluetooth service being skipped.
+Aug 31 08:56:15 labpc gnome-shell[125511]: [125548:125548:0831/085615.754113:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+Aug 31 08:56:23 labpc gnome-shell[125511]: [125548:125548:0831/085623.947889:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+Aug 31 08:56:29 labpc gnome-shell[125511]: [125548:125548:0831/085629.334514:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+Aug 31 09:07:41 labpc systemd[929]: Started Application launched by gnome-shell.
+Aug 31 09:07:41 labpc dbus-daemon[685]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.377' (uid=1000 pid=126126 comm="/usr/share/code/code --unity-launch --enable-crash" label="unconfined")
+Aug 31 09:07:41 labpc systemd[1]: Condition check resulted in Bluetooth service being skipped.
+Aug 31 09:07:41 labpc code.desktop[126164]: [126164:0831/090741.861422:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Aug 31 09:07:41 labpc code.desktop[126126]: #033[90m[main 2022-08-31T16:07:41.965Z]#033[0m update#setState idle
+Aug 31 09:07:43 labpc code.desktop[126126]: #033[90m[main 2022-08-31T16:07:43.038Z]#033[0m Starting extension host with pid 126238 (fork() took 8 ms).
+Aug 31 09:07:50 labpc code.desktop[126164]: [126164:0831/090750.207735:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+Aug 31 09:07:54 labpc code.desktop[126164]: [126164:0831/090754.126967:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+Aug 31 09:07:57 labpc code.desktop[126164]: [126164:0831/090757.259747:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+Aug 31 09:08:11 labpc code.desktop[126126]: #033[90m[main 2022-08-31T16:08:11.968Z]#033[0m update#setState checking for updates
+Aug 31 09:08:12 labpc code.desktop[126126]: #033[90m[main 2022-08-31T16:08:12.018Z]#033[0m update#setState idle
+Aug 31 09:08:31 labpc systemd[929]: Started Application launched by gnome-shell.
+Aug 31 09:08:32 labpc dbus-daemon[962]: [session uid=1000 pid=962] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.2083' (uid=1000 pid=126586 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Aug 31 09:08:32 labpc systemd[929]: Starting GNOME Terminal Server...
+Aug 31 09:08:32 labpc dbus-daemon[962]: [session uid=1000 pid=962] Successfully activated service 'org.gnome.Terminal'
+Aug 31 09:08:32 labpc systemd[929]: Started GNOME Terminal Server.
+Aug 31 09:08:32 labpc systemd[929]: Started VTE child process 126609 launched by gnome-terminal-server process 126591.
+Aug 31 09:10:55 labpc gnome-shell[1097]: libinput error: event6  - Microsoft Microsoft® Nano Transceiver v2.1: client bug: event processing lagging behind by 29ms, your system is too slow
+Aug 31 09:14:44 labpc gnome-shell[1097]: libinput error: event6  - Microsoft Microsoft® Nano Transceiver v2.1: client bug: event processing lagging behind by 35ms, your system is too slow
+Aug 31 09:17:01 labpc CRON[127294]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 31 09:28:43 labpc NetworkManager[686]: <info>  [1661963323.1860] manager: NetworkManager state is now CONNECTED_SITE
+Aug 31 09:28:43 labpc dbus-daemon[685]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.13' (uid=0 pid=686 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Aug 31 09:28:43 labpc systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug 31 09:28:43 labpc dbus-daemon[685]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 31 09:28:43 labpc systemd[1]: Started Network Manager Script Dispatcher Service.
+Aug 31 09:28:44 labpc NetworkManager[686]: <info>  [1661963324.2871] manager: NetworkManager state is now CONNECTED_GLOBAL
+Aug 31 09:28:54 labpc systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Aug 31 09:30:01 labpc CRON[128524]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Aug 31 09:31:08 labpc systemd[1]: Started Run anacron jobs.
+Aug 31 09:31:08 labpc anacron[128640]: Anacron 2.3 started on 2022-08-31
+Aug 31 09:31:08 labpc anacron[128640]: Normal exit (0 jobs run)
+Aug 31 09:31:08 labpc systemd[1]: anacron.service: Deactivated successfully.
+Aug 31 09:36:29 labpc gnome-shell[1097]: libinput error: event6  - Microsoft Microsoft® Nano Transceiver v2.1: client bug: event processing lagging behind by 35ms, your system is too slow

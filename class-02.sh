@@ -7,16 +7,21 @@
 
 # main
 
-# variable is assigned a date 
-now=$(date +%D)
+# variable is assigned a date (date option %b=abbreviation of month, %d=day, %Y=year, %R=24H, and %Z=time zone)
+now=$(date +%b_%d_%Y_%R%Z)
+
+# statement
+echo "syslog is copied to Appent_TD"
 
 # copy syslog file to a new file
+# -v option display informative messages as the command is performed
 # -i option prompts the user for confirmation before overwriting files
-cp -i /var/log/syslog Append_TD
+cp -v -i /var/log/syslog Append_TD
 
 # append the date to a file name
-mv -i Append_TD Append_TD.$now
+mv -v -i Append_TD Append_TD:$now
 
 #End
+
 
 
