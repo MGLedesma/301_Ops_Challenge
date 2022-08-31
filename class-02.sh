@@ -18,7 +18,7 @@ echo "syslog is copied to Appent_TD"
 # -i option prompts the user for confirmation before overwriting files
 cp -v -i /var/log/syslog Append_TD
 
-# append the date to a file name
+# filename is appended with date and time
 mv -v -i Append_TD Append_TD:$now
 
 #End
