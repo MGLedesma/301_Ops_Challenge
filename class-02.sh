@@ -3,7 +3,7 @@
 # Script:   Ops 301 Class 02 Ops Challenge Solution
 # Author:   MaryGrace Ledesma
 # Date of last revision:    August 30, 2022
-# Purpose: Copy /var/log/syslog into a directory and Append the date and time of filename
+# Purpose:  Copy /var/log/syslog into a directory and Append the date and time of filename
 
 # main
 
@@ -14,7 +14,7 @@ now=$(date +%b_%d_%Y_%R%Z)
 echo "syslog is copied to Appent_TD"
 
 # copy syslog file to a new file
-# -v option display informative messages as the command is performed
+# -v option display informative message as the command is performed
 # -i option prompts the user for confirmation before overwriting files
 cp -v -i /var/log/syslog Append_TD
 
