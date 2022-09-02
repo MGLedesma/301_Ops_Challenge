@@ -42,9 +42,9 @@ do
     elif [ "$userinput" == "3" ]; then
         echo
         echo "IP information as requested"
-        # lshw 
+        sudo lshw -c network -short
         sleep "$DELAY"
-    
+
     fi
 
 done
