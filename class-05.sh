@@ -1,4 +1,6 @@
-# Script Name:  Ops 301 Class 05 Challenge Solution  
+#!/bin/bash
+
+Script Name:  Ops 301 Class 05 Challenge Solution  
 # Author:   MaryGrace Ledesma
 # Date of last revision: September 02, 2022
 # Description of purpose: Write a script that will clear a content of a log file
