@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 # Script Name:  Ops 301 Class 09 Challenge Solution  
 # Author:   MaryGrace Ledesma
@@ -9,12 +9,19 @@
 
 # Assign to a variable a list of ten string elements.
 Birds = ["parrots", "owls", "finches", "falcon", "herons", "toucans", "cranes", "pelican", "stork", "swans"]
+print(Birds)
 
 # Print the fourth element of the list.
 print(Birds[3])
 
 # Print the sixth through tenth element of the list.
-print(-1:-4)
+print(Birds[5:11])
 
 # Change the value of the seventh element to “onion”.
-Birds.append"cranes"="onions"
+Birds[6]= "onion"
+print(Birds)
+
+
+
+
+
