@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 # Script Name:  Ops 301 Class 06 Challenge Solution  
 # Author:   MaryGrace Ledesma

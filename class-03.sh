@@ -10,14 +10,14 @@
 # Prompts user for input directory path.
 echo "Enter directory path"
 
-read -userinput1
+read upath1
 
 # Prompts user for input permissions number (e.g. 777 to perform a chmod 777)
 echo "Enter permission number"
 
-read -userinput2
+read upath2
 
 # Navigates to the directory input by the user and changes all files inside it to the input setting.
-
+cd $upath1
 
 # Prints to the screen the directory contents and the new permissions settings of everything in the directory. 

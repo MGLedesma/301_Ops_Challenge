@@ -1,12 +1,11 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
-# Script Name:  Ops 301 Class 07 Challenge Solution  
-# Author:   MaryGrace Ledesma
-# Date of last revision: September 07, 2022
-# Description of purpose: 
-# Import libraries
+# Script Name:
+# Author:
+# Date of Last Revision:
+# Description of purpose: Creata a Python script that genereate all directories, sub-directories adn files for a user-provided directory path.
 
-import os
+# import os
 
 # Declaration of variables
 
@@ -32,6 +31,5 @@ def walkfunc(argument):
 
 # Main
 
-### Pass the variable into the function here
-
 # End
+
