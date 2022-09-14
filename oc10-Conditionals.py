@@ -7,22 +7,23 @@
 
 # Main
 
-# Create an if statement using a logical conditional of your include elif keyword that executes when other conditions are not met.
-# Create an if statement with two conditions by using and between conditions.
+# Create an if statement using a logical conditional. Each statement should print information to the screen depending on if the condition is met.
+# Include elif keyword that executes when other conditions are not met and an if statement that includes both elif and else to execute when both if and elif are not met.
+# Stretch goal: Create an if statement with two conditions by using and between conditions.
 
 
 age = int(input("Enter your age: "))
 
 if age <= 10:
-    print("Welcome! Young Jedi")
+    print("Welcome Youngling!")
 
 elif age > 11 and age < 18:
-    print("Welcome! Padawan")
+    print("Welcome Padawan!")
 
 elif age >= 19 and age == 25:
-    print("Welcome! Jedi Knight") 
+    print("Welcome Jedi Knight!") 
 
 else:
-    print("Jedi Master is that you?")
+    print("Master Jedi is that you?")
 
 # End
