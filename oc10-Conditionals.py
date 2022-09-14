@@ -17,10 +17,10 @@ age = int(input("Enter your age: "))
 if age <= 10:
     print("Welcome Youngling!")
 
-elif age > 11 and age < 18:
+elif age > 10 and age < 18:
     print("Welcome Padawan!")
 
-elif age >= 19 and age == 25:
+elif age >= 18 and age <= 25:
     print("Welcome Jedi Knight!") 
 
 else:
