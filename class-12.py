@@ -9,6 +9,7 @@ import psutil
 
 #Declaration of variables
 cpuinfo = psutil.cpu_times()
+print("---- CPU Times ----")
 
 # Time spent by normal processes executing in user mode = user parameter
 print("Time spent by normal processes executing in user mode:", cpuinfo[0])
