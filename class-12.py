@@ -19,4 +19,4 @@ import psutil
 # Time spent by other operating systems running in a virtualized environment
 # Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel
 
-psutil.cpu_times()
+print(psutil.cpu_times())
