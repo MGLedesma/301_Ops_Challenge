@@ -31,10 +31,10 @@ print("Time spent for servicing hardware interrupts:", cpuinfo[5])
 # Time spent for servicing software interrupts = softirq parameter
 print("Time spent for servicing software interrupts:", cpuinfo[6])
 
-# Time spent by other operating systems running in a virtualized environment
+# Time spent by other operating systems running in a virtualized environment = steal parameter
 print("Time spent by other operating systems running in a virtualized environment:", cpuinfo[7])
 
-# Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel
+# Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel = guest parameter
 print("Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel:", cpuinfo[8])
 
 # End
